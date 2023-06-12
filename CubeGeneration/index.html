@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>My test page</title>
+  </head>
+  <body>
+    <h2>Cube:</h2>
+    <form id="cube-form">
+      <label for="side-length">Side Length:</label>
+      <input type="number" id="side-length" name="side-length" required><br><br>
+
+    <h2>Colors (RGB):</h2>
+      <label for="color-top">Top: </label>
+      <input type="text" id="color-top" name="color-top" required><br><br>
+
+      <label for="color-left">Left:</label>
+      <input type="text" id="color-left" name="color-left" required><br><br>
+
+      <label for="color-right">Right:</label>
+      <input type="text" id="color-right" name="color-right" required><br><br>
+
+      <label for="color-front">Front:</label>
+      <input type="text" id="color-front" name="color-front" required><br><br>
+
+      <label for="color-back">Back:</label>
+      <input type="text" id="color-back" name="color-back" required><br><br>
+
+      <label for="color-bottom">Bottom:</label>
+      <input type="text" id="color-bottom" name="color-bottom" required><br><br>
+
+      <button id="generate-button">Generate Cube</button>
+  </form>
+
+    <canvas id="main-canvas" width="800" height="600"></canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/gl-matrix.js"></script>
+    
+  <script src="script.js"></script>
+  </body>
+</html>
